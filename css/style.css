@@ -431,7 +431,7 @@ h2.header-text{
 	  color: #ededed;
 	}
 	.current {
-	background: rgba(218, 253, 249, 0.5);
+	background: rgba(204, 153, 51, 0.7);
 	}
 	.navbar-brand {
 	 float: left; 
@@ -492,7 +492,7 @@ h2.header-text{
 		padding-right:20px;
 	}
 	.header, .navbar-default, #custom .menu-wrapper.affix .header, #custom .menu-wrapper.affix .navbar-default {
-	background: rgb(48, 173, 151) !important;
+	background: rgb(128, 0, 0) !important;
 	margin-top: -20px;
 	transition: .4s;
 	}
