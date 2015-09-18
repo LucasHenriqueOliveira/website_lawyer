@@ -103,7 +103,7 @@ ul {
 	font-weight: normal !important;
 	font-size: 18px !important;
 	line-height: 150%;
-	color: rgb(119, 156, 147);
+	color: rgb(128, 0, 0);
 }
 .hidden{
 	display:none
@@ -276,7 +276,7 @@ padding-top: 111px;
 	}
 #team {
     padding-top: 100px;
-    background: aliceblue;
+    background: rgba(215, 215, 215, 0.188235);
 }
 
 h2.header-text{
@@ -930,7 +930,7 @@ border: 0px solid transparent !important;
 		padding-bottom: 0;
 		text-transform: uppercase;
 		letter-spacing: 0.6px;
-		color: #5F928F;
+		color: #474647;
 		}
 	#page_header hr {
 		margin:0 auto 30px !important;
@@ -961,7 +961,7 @@ border: 0px solid transparent !important;
 	.purchase span,
 	body#error404 a,
 	.client_url {
-		color:#26cda4 !important;
+		color:#9B9B9B !important;
 	}
 	a,
 	.check li:before,
@@ -1013,10 +1013,10 @@ border: 0px solid transparent !important;
 	.footer #contactform .btn-primary:hover,
 	.footer #contactform .btn-primary:focus,
 	.form-control:focus {
-		border-color:#26cda4 !important;
+		border-color:rgb(204, 153, 51) !important;
 	}
 	blockquote {
-		border-left-color:#26cda4;
+		border-left-color:rgb(204, 153, 51);
 	}
 	#custom .navbar-toggle,
 #custom .navbar-toggle:hover,
@@ -1029,12 +1029,12 @@ border: 0px solid transparent !important;
 	}
 
 	.title-footer a:hover {
-	    color: #85D5C8!important;
+	    color: rgb(204, 153, 51)!important;
 	    background-color: transparent!important;
 	}
 
 	.title-footer a {
-	    color: #30AD97;
+	    color: rgb(204, 153, 51);
 	}
 
 /* ----------------------------------------------------
