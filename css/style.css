@@ -1025,7 +1025,7 @@ border: 0px solid transparent !important;
 	.fullwidth .item .magnifier,
 	.blog-item .hovereffect,
 	.team_member .magnifier {
-		background-color:rgba(38,205, 164, 0.8) !important;
+		/*background-color:rgba(38,205, 164, 0.8) !important;*/
 	}
 
 	.title-footer a:hover {
@@ -1036,6 +1036,11 @@ border: 0px solid transparent !important;
 	.title-footer a {
 	    color: rgb(204, 153, 51);
 	}
+	
+.logo{
+	width: 250px !important;
+  	margin-top: 15px;
+}
 
 /* ----------------------------------------------------
 	RESPONSIVE
@@ -1053,6 +1058,10 @@ border: 0px solid transparent !important;
 		.flexslider:hover .flex-next { opacity: 1; right: 7.1%; }
 	}
 	@media only screen and (min-width : 480px) and (max-width : 768px) {
+		.logo{
+			width: 220px !important;
+		  	margin-top: 15px;
+		}
 		.copyrights {
 			text-align: center;
 		}
@@ -1118,6 +1127,18 @@ border: 0px solid transparent !important;
 		}
 	}
 	@media only screen and (min-width : 320px) and (max-width : 480px) {
+		.logo{
+			width: 220px !important;
+		  	margin-top: 15px;
+		}
+		.navbar-toggle {
+			padding-top: 5px !important;
+			padding-left: 5px !important;
+			padding-right: 5px !important;
+			padding-bottom: 0px !important;
+			margin-bottom: 0px !important;
+			margin-top: 15px !important;
+		}
 		.comment-reply {display: none;}
 		.copyrights {
 			text-align: center;
@@ -1242,7 +1263,7 @@ padding: 0 0 17px 0;
     cursor: pointer;
 }
 .panel-heading {
-    border-color: rgba(3, 108, 71, 1) !important;
+    border-color: rgba(128, 0, 0, 0.5) !important;
 }
 
 .clickable .glyphicon
@@ -1345,9 +1366,4 @@ input {
   a.active:after {
     display: none;
   }
-}
-
-.logo{
-	width: 250px !important;
-  	margin-top: 15px;
 }
