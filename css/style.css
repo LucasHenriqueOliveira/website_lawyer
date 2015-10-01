@@ -1367,3 +1367,29 @@ input {
     display: none;
   }
 }
+
+.areas-image {
+	opacity: 0.5;
+}
+
+.areas{
+	position: relative;
+	width: 100%;
+	z-index: 1;
+}
+
+.cbp-l-caption-title {
+	position: absolute;
+	text-align: center;
+	top: 150px;
+	margin-left: auto;
+	margin-right: auto;
+	height: 100%;
+	width: 100%;
+}
+
+.cbp-l-caption-title {
+	color: #fff;
+	font-weight: bold;
+	font-size: 21px;
+}
