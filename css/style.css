@@ -273,7 +273,9 @@ padding-top: 111px;
 	background: rgba(215, 215, 215, 0.188235);
 	padding-top: 111px;
 	position: relative;
-	}
+	padding-bottom: 100px;
+}
+
 #team {
     padding-top: 100px;
     background: rgba(215, 215, 215, 0.188235);
@@ -1381,7 +1383,7 @@ input {
 .cbp-l-caption-title {
 	position: absolute;
 	text-align: center;
-	top: 150px;
+	top: 90px;
 	margin-left: auto;
 	margin-right: auto;
 	height: 100%;

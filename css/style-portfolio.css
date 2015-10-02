@@ -25,6 +25,7 @@ margin: 0 auto;
 .portfolio-items li img {
 	display: block;
 	width: 360px;
+	height: 200px;
 	/* padding: 6px; */
 	background: #eee;
 	border: 13px solid #fff;
